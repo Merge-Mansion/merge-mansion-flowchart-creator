@@ -1,0 +1,79 @@
+      "Name": "Eiffel Tower",
+      "ConfigKey": "CBE_MaddieInParis2025_EiffelTower",
+      "PrimaryChain": [
+        {
+          "Item": {
+            "Name": "Eiffel Tower",
+            "Description": "The iconic must-see landmark.",
+            "SellCoins": 1,
+            "ConfigKey": 52333932,
+            "PoolTag": "CBE_MaddieInParis2025_EiffelTower",
+            "SkinName": "1",
+            "LevelNumber": 1,
+            "Movable": true,
+            "CostInDiamonds": 5000.0,
+            "AnchorPriceGems": 0.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 7500.0,
+            "UnlockOnBoardPriceGems": 15000.0,
+            "ExperienceValue": 2,
+            "ActivationFeatures": {
+              "ActivationSpawn": {
+                "ControlledRandomSequence": {
+                  "Odds": {
+                    "CBE_MaddieInParis2025_Steps_01": 80.0,
+                    "CBE_MaddieInParis2025_Valentines_01": 5.0,
+                    "CBE_MaddieInParis2025_Travel_01": 5.0,
+                    "CBE_MaddieInParis2025_Food_01": 3.0,
+                    "CBE_MaddieInParis2025_EiffelTowerItems_01": 5.0,
+                    "CBE_MaddieInParis2025_Food_02": 1.0,
+                    "CBE_MaddieInParis2025_Food_03": 1.0
+                  }
+                }
+              },
+              "Placement": {},
+              "ActivationCycle": {
+                "ActivationDelay": 100,
+                "FirstCycleStartDelay": 2000,
+                "DelayBetweenCycles": 7200000,
+                "HowManyAreGeneratedInCycle": 1,
+                "ActivationAmountInCycle": 80,
+                "HowManyCycles": -1
+              },
+              "StorageMax": 320,
+              "SpawnVisibility": "Visible",
+              "Activable": true,
+              "StartsFull": true,
+              "DecayAfterLastCycleAndActivation": false,
+              "ShowTapTextOnDiscovery": false,
+              "AllowCooldownRemover": false,
+              "AllowEnergyMode": false,
+              "HasDecayDelay": false
+            },
+            "Tags": [
+              "CBE_MaddieInParis2025",
+              "Event"
+            ],
+            "MergeChainRef": "CBE_MaddieInParis2025_EiffelTower",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "Event"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Undefined",
+            "Unsellable": true,
+            "ItemType": "CBE_MaddieInParis2025_EiffelTower_01",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "SinkPoints": 0,
+            "OverrideProductionSource": [],
+            "ItemEffectFeatures": {
+              "ActivationVfxPoolTag": "ItemEffectMaddieinParis",
+              "HasActivationVfx": false
+            }
+          },

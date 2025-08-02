@@ -1,0 +1,1097 @@
+{
+  "CreatedAt": "2024-09-18T12:33:43.149",
+  "Data": [
+{
+      "Name": "Drawer",
+      "ConfigKey": "Drawer",
+      "PrimaryChain": [
+        {
+          "Item": {
+            "Name": "Drawer Knob",
+            "Description": "MERGE to create a pair of Drawer Knobs.",
+            "SellCoins": 1,
+            "RequiredItemValue": 48,
+            "RewardItemValue": 48,
+            "ConfigKey": 60,
+            "PoolTag": "DrawerItem",
+            "SkinName": "1",
+            "LevelNumber": 1,
+            "Movable": true,
+            "CostInDiamonds": 40.0,
+            "AnchorPriceGems": 40.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 60.0,
+            "UnlockOnBoardPriceGems": 120.0,
+            "ExperienceValue": 1,
+            "MergeFeatures": {
+              "Mechanic": {
+                "ResultProducer": {
+                  "Constant": "Drawer_02"
+                },
+                "ResultVisibility": "Visible",
+                "ResetTimers": true,
+                "StorageAction": "Sum"
+              },
+              "AdditionalSpawnProducer": {
+                "Constant": "Experience_01"
+              },
+              "Mergeable": false,
+              "RequiresXpState": false
+            },
+            "BubbleFeatures": {
+              "BubbleDuration": 180000,
+              "OpenCurrency": "Diamonds",
+              "OpenQuantity": 40,
+              "SpawnOdds": 0
+            },
+            "Tags": [
+              "CanUseBlueCard",
+              "CanUseScissors",
+              "DontSellIfOnlyOneOrHighest"
+            ],
+            "MergeChainRef": "Drawer",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "SpawnerPart"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Uncommon",
+            "Unsellable": false,
+            "ItemType": "Drawer_01",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "SinkPoints": 0,
+            "OverrideProductionSource": []
+          },
+          "Count": 0
+        },
+        {
+          "Item": {
+            "Name": "Drawer Knobs",
+            "Description": "MERGE to create a Drawer Box.",
+            "SellCoins": 2,
+            "RequiredItemValue": 95,
+            "RewardItemValue": 95,
+            "ConfigKey": 61,
+            "PoolTag": "DrawerItem",
+            "SkinName": "2",
+            "LevelNumber": 2,
+            "Movable": true,
+            "CostInDiamonds": 79.0,
+            "AnchorPriceGems": 80.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 119.0,
+            "UnlockOnBoardPriceGems": 237.0,
+            "ExperienceValue": 2,
+            "MergeFeatures": {
+              "Mechanic": {
+                "ResultProducer": {
+                  "Constant": "Drawer_03"
+                },
+                "ResultVisibility": "Visible",
+                "ResetTimers": true,
+                "StorageAction": "Sum"
+              },
+              "AdditionalSpawnProducer": {
+                "Constant": "Experience_01"
+              },
+              "Mergeable": false,
+              "RequiresXpState": false
+            },
+            "BubbleFeatures": {
+              "BubbleDuration": 180000,
+              "OpenCurrency": "Diamonds",
+              "OpenQuantity": 79,
+              "SpawnOdds": 15
+            },
+            "Tags": [
+              "CanUseBlueCard",
+              "CanUseScissors",
+              "DontSellIfOnlyOneOrHighest"
+            ],
+            "MergeChainRef": "Drawer",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "SpawnerPart"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Uncommon",
+            "Unsellable": false,
+            "ItemType": "Drawer_02",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "SinkPoints": 0,
+            "OverrideProductionSource": []
+          },
+          "Count": 0
+        },
+        {
+          "Item": {
+            "Name": "Drawer Box",
+            "Description": "MERGE to create Drawer Boxes.",
+            "SellCoins": 4,
+            "RequiredItemValue": 182,
+            "RewardItemValue": 182,
+            "ConfigKey": 62,
+            "PoolTag": "DrawerItem",
+            "SkinName": "3",
+            "LevelNumber": 3,
+            "Movable": true,
+            "CostInDiamonds": 152.0,
+            "AnchorPriceGems": 160.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 227.0,
+            "UnlockOnBoardPriceGems": 454.0,
+            "ExperienceValue": 4,
+            "MergeFeatures": {
+              "Mechanic": {
+                "ResultProducer": {
+                  "Constant": "Drawer_04"
+                },
+                "ResultVisibility": "Visible",
+                "ResetTimers": true,
+                "StorageAction": "Sum"
+              },
+              "AdditionalSpawnProducer": {
+                "Constant": "Experience_01"
+              },
+              "Mergeable": false,
+              "RequiresXpState": false
+            },
+            "BubbleFeatures": {
+              "BubbleDuration": 240000,
+              "OpenCurrency": "Diamonds",
+              "OpenQuantity": 152,
+              "SpawnOdds": 10
+            },
+            "Tags": [
+              "CanUseBlueCard",
+              "CanUseScissors",
+              "DontSellIfOnlyOneOrHighest"
+            ],
+            "MergeChainRef": "Drawer",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "SpawnerPart"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Uncommon",
+            "Unsellable": false,
+            "ItemType": "Drawer_03",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "SinkPoints": 0,
+            "OverrideProductionSource": []
+          },
+          "Count": 0
+        },
+        {
+          "Item": {
+            "Name": "Drawer Boxes",
+            "Description": "TAP to collect the items inside or MERGE to create a Drawer.",
+            "SellCoins": 6,
+            "RequiredItemValue": 336,
+            "RewardItemValue": 336,
+            "ConfigKey": 63,
+            "PoolTag": "DrawerItem",
+            "SkinName": "4",
+            "LevelNumber": 4,
+            "Movable": true,
+            "CostInDiamonds": 280.0,
+            "AnchorPriceGems": 320.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 420.0,
+            "UnlockOnBoardPriceGems": 840.0,
+            "ExperienceValue": 8,
+            "MergeFeatures": {
+              "Mechanic": {
+                "ResultProducer": {
+                  "Constant": "Drawer_05"
+                },
+                "ResultVisibility": "Visible",
+                "ResetTimers": true,
+                "StorageAction": "Sum"
+              },
+              "AdditionalSpawnProducer": {
+                "Constant": "Experience_01"
+              },
+              "Mergeable": false,
+              "RequiresXpState": false
+            },
+            "ActivationFeatures": {
+              "ActivationSpawn": {
+                "Marker": "DrawerSpawn",
+                "BaseProducer": {
+                  "ControlledRandom": {
+                    "RollType": "Activation",
+                    "ItemType": "Drawer_04",
+                    "Odds": {
+                      "Vase_01": 89.28571428571429,
+                      "Flowerpot_01": 9.920634920634921,
+                      "GardenToolBarrel_01": 0.496031746031746,
+                      "Drawer_01": 0.2976190476190476
+                    }
+                  }
+                }
+              },
+              "Placement": {},
+              "ActivationCycle": {
+                "ActivationDelay": 3000,
+                "FirstCycleStartDelay": 500,
+                "DelayBetweenCycles": 23400000,
+                "HowManyAreGeneratedInCycle": 1,
+                "ActivationAmountInCycle": 4,
+                "HowManyCycles": -1
+              },
+              "StorageMax": 4,
+              "SpawnVisibility": "Visible",
+              "Activable": true,
+              "StartsFull": false,
+              "DecayAfterLastCycleAndActivation": false,
+              "ShowTapTextOnDiscovery": false,
+              "AllowCooldownRemover": true,
+              "AllowEnergyMode": true
+            },
+            "BubbleFeatures": {
+              "BubbleDuration": 240000,
+              "OpenCurrency": "Diamonds",
+              "OpenQuantity": 280,
+              "SpawnOdds": 5
+            },
+            "Tags": [
+              "CanUseBlackCard",
+              "CanUseScissors",
+              "DontSellIfOnlyOneOrHighest"
+            ],
+            "MergeChainRef": "Drawer",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "Spawner"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Rare",
+            "Unsellable": false,
+            "ItemType": "Drawer_04",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "MiniEventFeatures": {},
+            "SinkPoints": 0,
+            "OverrideProductionSource": []
+          },
+          "Count": 0
+        },
+        {
+          "Item": {
+            "Name": "Drawer",
+            "Description": "TAP to collect the items inside or MERGE to create an upgraded Drawer.",
+            "SellCoins": 12,
+            "RequiredItemValue": 598,
+            "RewardItemValue": 598,
+            "ConfigKey": 64,
+            "PoolTag": "DrawerItem",
+            "SkinName": "5",
+            "LevelNumber": 5,
+            "Movable": true,
+            "CostInDiamonds": 498.0,
+            "AnchorPriceGems": 640.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 747.0,
+            "UnlockOnBoardPriceGems": 1494.0,
+            "ExperienceValue": 16,
+            "MergeFeatures": {
+              "Mechanic": {
+                "ResultProducer": {
+                  "Constant": "Drawer_06"
+                },
+                "ResultVisibility": "Visible",
+                "ResetTimers": true,
+                "StorageAction": "Sum"
+              },
+              "AdditionalSpawnProducer": {
+                "Constant": "Experience_01"
+              },
+              "Mergeable": false,
+              "RequiresXpState": false
+            },
+            "ActivationFeatures": {
+              "ActivationSpawn": {
+                "Marker": "DrawerSpawn",
+                "BaseProducer": {
+                  "ControlledRandom": {
+                    "RollType": "Activation",
+                    "ItemType": "Drawer_05",
+                    "Odds": {
+                      "Vase_01": 82.93650793650794,
+                      "Vase_02": 6.349206349206349,
+                      "Flowerpot_01": 9.920634920634921,
+                      "GardenToolBarrel_01": 0.496031746031746,
+                      "Drawer_01": 0.2976190476190476
+                    }
+                  }
+                }
+              },
+              "Placement": {},
+              "ActivationCycle": {
+                "ActivationDelay": 3000,
+                "FirstCycleStartDelay": 500,
+                "DelayBetweenCycles": 23400000,
+                "HowManyAreGeneratedInCycle": 1,
+                "ActivationAmountInCycle": 6,
+                "HowManyCycles": -1
+              },
+              "StorageMax": 6,
+              "SpawnVisibility": "Visible",
+              "Activable": true,
+              "StartsFull": false,
+              "DecayAfterLastCycleAndActivation": false,
+              "ShowTapTextOnDiscovery": false,
+              "AllowCooldownRemover": true,
+              "AllowEnergyMode": true
+            },
+            "BubbleFeatures": {
+              "BubbleDuration": 300000,
+              "OpenCurrency": "Diamonds",
+              "OpenQuantity": 498,
+              "SpawnOdds": 0
+            },
+            "Tags": [
+              "CanUseBlackCard",
+              "CanUseScissors",
+              "DontSellIfOnlyOneOrHighest"
+            ],
+            "MergeChainRef": "Drawer",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "Spawner"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Rare",
+            "Unsellable": false,
+            "ItemType": "Drawer_05",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "MiniEventFeatures": {},
+            "SinkPoints": 0,
+            "OverrideProductionSource": []
+          },
+          "Count": 0
+        },
+        {
+          "Item": {
+            "Name": "Drawer",
+            "Description": "TAP to collect the items inside or MERGE to create an upgraded Drawer.",
+            "SellCoins": 25,
+            "RequiredItemValue": 1003,
+            "RewardItemValue": 1003,
+            "ConfigKey": 65,
+            "PoolTag": "DrawerItem",
+            "SkinName": "6",
+            "LevelNumber": 6,
+            "Movable": true,
+            "CostInDiamonds": 836.0,
+            "AnchorPriceGems": 1280.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 1254.0,
+            "UnlockOnBoardPriceGems": 2507.0,
+            "ExperienceValue": 32,
+            "MergeFeatures": {
+              "Mechanic": {
+                "ResultProducer": {
+                  "Constant": "Drawer_07"
+                },
+                "ResultVisibility": "Visible",
+                "ResetTimers": true,
+                "StorageAction": "Sum"
+              },
+              "AdditionalSpawnProducer": {
+                "Constant": "Experience_01"
+              },
+              "Mergeable": false,
+              "RequiresXpState": false
+            },
+            "ActivationFeatures": {
+              "ActivationSpawn": {
+                "Marker": "DrawerSpawn",
+                "BaseProducer": {
+                  "ControlledRandom": {
+                    "RollType": "Activation",
+                    "ItemType": "Drawer_06",
+                    "Odds": {
+                      "Vase_01": 72.51984126984127,
+                      "Vase_02": 11.21031746031746,
+                      "Vase_03": 5.555555555555555,
+                      "Flowerpot_01": 9.920634920634921,
+                      "GardenToolBarrel_01": 0.496031746031746,
+                      "Drawer_01": 0.2976190476190476
+                    }
+                  }
+                }
+              },
+              "Placement": {},
+              "ActivationCycle": {
+                "ActivationDelay": 100,
+                "FirstCycleStartDelay": 500,
+                "DelayBetweenCycles": 23400000,
+                "HowManyAreGeneratedInCycle": 1,
+                "ActivationAmountInCycle": 9,
+                "HowManyCycles": -1
+              },
+              "StorageMax": 18,
+              "SpawnVisibility": "Visible",
+              "Activable": true,
+              "StartsFull": false,
+              "DecayAfterLastCycleAndActivation": false,
+              "ShowTapTextOnDiscovery": false,
+              "AllowCooldownRemover": true,
+              "AllowEnergyMode": true
+            },
+            "BubbleFeatures": {
+              "BubbleDuration": 300000,
+              "OpenCurrency": "Diamonds",
+              "OpenQuantity": 836,
+              "SpawnOdds": 0
+            },
+            "Tags": [
+              "CanUseBlackCard",
+              "CanUseScissors",
+              "DontSellIfOnlyOneOrHighest"
+            ],
+            "MergeChainRef": "Drawer",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "Spawner"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Rare",
+            "Unsellable": false,
+            "ItemType": "Drawer_06",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "MiniEventFeatures": {},
+            "SinkPoints": 0,
+            "OverrideProductionSource": []
+          },
+          "Count": 0
+        },
+        {
+          "Item": {
+            "Name": "Drawer",
+            "Description": "TAP to collect the items inside or MERGE to create an upgraded Drawer.",
+            "SellCoins": 51,
+            "RequiredItemValue": 1536,
+            "RewardItemValue": 1536,
+            "ConfigKey": 66,
+            "PoolTag": "DrawerItem",
+            "SkinName": "7",
+            "LevelNumber": 7,
+            "Movable": true,
+            "CostInDiamonds": 1280.0,
+            "AnchorPriceGems": 1920.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 1920.0,
+            "UnlockOnBoardPriceGems": 3840.0,
+            "ExperienceValue": 64,
+            "MergeFeatures": {
+              "Mechanic": {
+                "ResultProducer": {
+                  "Constant": "Drawer_08"
+                },
+                "ResultVisibility": "Visible",
+                "ResetTimers": true,
+                "StorageAction": "Sum"
+              },
+              "AdditionalSpawnProducer": {
+                "Constant": "Experience_01"
+              },
+              "Mergeable": false,
+              "RequiresXpState": false
+            },
+            "ActivationFeatures": {
+              "ActivationSpawn": {
+                "Marker": "DrawerSpawn",
+                "BaseProducer": {
+                  "ControlledRandom": {
+                    "RollType": "Activation",
+                    "ItemType": "Drawer_07",
+                    "Odds": {
+                      "Vase_01": 68.71896722939425,
+                      "Vase_02": 6.852035749751738,
+                      "Vase_03": 13.704071499503476,
+                      "Flowerpot_01": 9.930486593843098,
+                      "GardenToolBarrel_01": 0.49652432969215493,
+                      "Drawer_01": 0.29791459781529295
+                    }
+                  }
+                }
+              },
+              "Placement": {},
+              "ActivationCycle": {
+                "ActivationDelay": 100,
+                "FirstCycleStartDelay": 500,
+                "DelayBetweenCycles": 23400000,
+                "HowManyAreGeneratedInCycle": 1,
+                "ActivationAmountInCycle": 13,
+                "HowManyCycles": -1
+              },
+              "StorageMax": 26,
+              "SpawnVisibility": "Visible",
+              "Activable": true,
+              "StartsFull": false,
+              "DecayAfterLastCycleAndActivation": false,
+              "ShowTapTextOnDiscovery": false,
+              "AllowCooldownRemover": true,
+              "AllowEnergyMode": true
+            },
+            "BubbleFeatures": {
+              "BubbleDuration": 300000,
+              "OpenCurrency": "Diamonds",
+              "OpenQuantity": 1280,
+              "SpawnOdds": 0
+            },
+            "Tags": [
+              "CanUseBlackCard",
+              "CanUseScissors",
+              "DontSellIfOnlyOneOrHighest"
+            ],
+            "MergeChainRef": "Drawer",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "Spawner"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Rare",
+            "Unsellable": false,
+            "ItemType": "Drawer_07",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "MiniEventFeatures": {},
+            "SinkPoints": 0,
+            "OverrideProductionSource": []
+          },
+          "Count": 0
+        },
+        {
+          "Item": {
+            "Name": "Drawer",
+            "Description": "TAP to collect the items inside or MERGE to create an upgraded Drawer.",
+            "SellCoins": 102,
+            "ConfigKey": 67,
+            "PoolTag": "DrawerItem",
+            "SkinName": "8",
+            "LevelNumber": 8,
+            "Movable": true,
+            "CostInDiamonds": 2009.0,
+            "AnchorPriceGems": 3712.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 3014.0,
+            "UnlockOnBoardPriceGems": 6027.0,
+            "ExperienceValue": 128,
+            "MergeFeatures": {
+              "Mechanic": {
+                "ResultProducer": {
+                  "Constant": "Drawer_09"
+                },
+                "ResultVisibility": "Visible",
+                "ResetTimers": true,
+                "StorageAction": "Sum"
+              },
+              "AdditionalSpawnProducer": {
+                "Constant": "Experience_01"
+              },
+              "Mergeable": false,
+              "RequiresXpState": false
+            },
+            "ActivationFeatures": {
+              "ActivationSpawn": {
+                "Marker": "DrawerSpawn",
+                "BaseProducer": {
+                  "ControlledRandom": {
+                    "RollType": "Activation",
+                    "ItemType": "Drawer_08",
+                    "Odds": {
+                      "Vase_01": 59.523809523809526,
+                      "Vase_02": 11.904761904761903,
+                      "Vase_03": 17.857142857142858,
+                      "Flowerpot_01": 6.646825396825397,
+                      "Flowerpot_02": 3.273809523809524,
+                      "GardenToolBarrel_01": 0.496031746031746,
+                      "Drawer_01": 0.2976190476190476
+                    }
+                  }
+                }
+              },
+              "Placement": {},
+              "ActivationCycle": {
+                "ActivationDelay": 100,
+                "FirstCycleStartDelay": 500,
+                "DelayBetweenCycles": 23400000,
+                "HowManyAreGeneratedInCycle": 1,
+                "ActivationAmountInCycle": 16,
+                "HowManyCycles": -1
+              },
+              "StorageMax": 32,
+              "SpawnVisibility": "Visible",
+              "Activable": true,
+              "StartsFull": false,
+              "DecayAfterLastCycleAndActivation": false,
+              "ShowTapTextOnDiscovery": false,
+              "AllowCooldownRemover": true,
+              "AllowEnergyMode": true
+            },
+            "Tags": [
+              "CanUseBlackCard",
+              "CanUseScissors",
+              "DontSellIfOnlyOneOrHighest"
+            ],
+            "MergeChainRef": "Drawer",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "Spawner"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Rare",
+            "Unsellable": false,
+            "ItemType": "Drawer_08",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "MiniEventFeatures": {},
+            "SinkPoints": 0,
+            "OverrideProductionSource": []
+          },
+          "Count": 0
+        },
+        {
+          "Item": {
+            "Name": "Drawer",
+            "Description": "TAP to collect the items inside or MERGE to create an upgraded Drawer.",
+            "SellCoins": 205,
+            "ConfigKey": 68,
+            "PoolTag": "DrawerItem",
+            "SkinName": "9",
+            "LevelNumber": 9,
+            "Movable": true,
+            "CostInDiamonds": 3485.0,
+            "AnchorPriceGems": 7424.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 5227.0,
+            "UnlockOnBoardPriceGems": 10454.0,
+            "ExperienceValue": 256,
+            "MergeFeatures": {
+              "Mechanic": {
+                "ResultProducer": {
+                  "Constant": "Drawer_10"
+                },
+                "ResultVisibility": "Visible",
+                "ResetTimers": true,
+                "StorageAction": "Sum"
+              },
+              "AdditionalSpawnProducer": {
+                "Constant": "Experience_01"
+              },
+              "Mergeable": false,
+              "RequiresXpState": false
+            },
+            "ActivationFeatures": {
+              "ActivationSpawn": {
+                "Marker": "DrawerSpawn",
+                "BaseProducer": {
+                  "ControlledRandom": {
+                    "RollType": "Activation",
+                    "ItemType": "Drawer_09",
+                    "Odds": {
+                      "Vase_01": 48.71031746031746,
+                      "Vase_02": 16.26984126984127,
+                      "Vase_03": 24.305555555555554,
+                      "Flowerpot_01": 3.273809523809524,
+                      "Flowerpot_02": 6.646825396825397,
+                      "GardenToolBarrel_01": 0.496031746031746,
+                      "Drawer_01": 0.2976190476190476
+                    }
+                  }
+                }
+              },
+              "Placement": {},
+              "ActivationCycle": {
+                "ActivationDelay": 100,
+                "FirstCycleStartDelay": 500,
+                "DelayBetweenCycles": 23400000,
+                "HowManyAreGeneratedInCycle": 1,
+                "ActivationAmountInCycle": 19,
+                "HowManyCycles": -1
+              },
+              "StorageMax": 38,
+              "SpawnVisibility": "Visible",
+              "Activable": true,
+              "StartsFull": false,
+              "DecayAfterLastCycleAndActivation": false,
+              "ShowTapTextOnDiscovery": false,
+              "AllowCooldownRemover": true,
+              "AllowEnergyMode": true
+            },
+            "Tags": [
+              "CanUseBlackCard",
+              "CanUseScissors",
+              "DontSellIfOnlyOneOrHighest"
+            ],
+            "MergeChainRef": "Drawer",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "Spawner"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Rare",
+            "Unsellable": false,
+            "ItemType": "Drawer_09",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "MiniEventFeatures": {},
+            "SinkPoints": 0,
+            "OverrideProductionSource": []
+          },
+          "Count": 0
+        },
+        {
+          "Item": {
+            "Name": "Drawer",
+            "Description": "TAP to collect the items inside or MERGE to create an upgraded Drawer.",
+            "SellCoins": 410,
+            "ConfigKey": 69,
+            "PoolTag": "DrawerItem",
+            "SkinName": "10",
+            "LevelNumber": 10,
+            "Movable": true,
+            "CostInDiamonds": 5760.0,
+            "AnchorPriceGems": 14848.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 8640.0,
+            "UnlockOnBoardPriceGems": 17280.0,
+            "ExperienceValue": 512,
+            "MergeFeatures": {
+              "Mechanic": {
+                "ResultProducer": {
+                  "Constant": "Drawer_11"
+                },
+                "ResultVisibility": "Visible",
+                "ResetTimers": true,
+                "StorageAction": "Sum"
+              },
+              "AdditionalSpawnProducer": {
+                "Constant": "Experience_01"
+              },
+              "Mergeable": false,
+              "RequiresXpState": false
+            },
+            "ActivationFeatures": {
+              "ActivationSpawn": {
+                "Marker": "DrawerSpawn",
+                "BaseProducer": {
+                  "ControlledRandom": {
+                    "RollType": "Activation",
+                    "ItemType": "Drawer_10",
+                    "Odds": {
+                      "Vase_01": 48.66204162537166,
+                      "Vase_02": 16.253716551040633,
+                      "Vase_03": 16.253716551040633,
+                      "Vase_04": 8.126858275520316,
+                      "Flowerpot_01": 4.955401387512389,
+                      "Flowerpot_02": 2.4777006937561943,
+                      "Flowerpot_03": 2.4777006937561943,
+                      "GardenToolBarrel_01": 0.4955401387512388,
+                      "Drawer_01": 0.29732408325074333
+                    }
+                  }
+                }
+              },
+              "Placement": {},
+              "ActivationCycle": {
+                "ActivationDelay": 100,
+                "FirstCycleStartDelay": 500,
+                "DelayBetweenCycles": 23400000,
+                "HowManyAreGeneratedInCycle": 1,
+                "ActivationAmountInCycle": 23,
+                "HowManyCycles": -1
+              },
+              "StorageMax": 46,
+              "SpawnVisibility": "Visible",
+              "Activable": true,
+              "StartsFull": false,
+              "DecayAfterLastCycleAndActivation": false,
+              "ShowTapTextOnDiscovery": false,
+              "AllowCooldownRemover": true,
+              "AllowEnergyMode": true
+            },
+            "Tags": [
+              "CanUseBlackCard",
+              "CanUseScissors",
+              "DontSellIfOnlyOneOrHighest"
+            ],
+            "MergeChainRef": "Drawer",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "Spawner"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Rare",
+            "Unsellable": false,
+            "ItemType": "Drawer_10",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "MiniEventFeatures": {},
+            "SinkPoints": 0,
+            "OverrideProductionSource": []
+          },
+          "Count": 0
+        },
+        {
+          "Item": {
+            "Name": "Drawer",
+            "Description": "TAP to collect the items inside or MERGE to create an upgraded Drawer.",
+            "SellCoins": 820,
+            "ConfigKey": 70,
+            "PoolTag": "DrawerItem",
+            "SkinName": "11",
+            "LevelNumber": 11,
+            "Movable": true,
+            "CostInDiamonds": 8036.0,
+            "AnchorPriceGems": 29696.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 12054.0,
+            "UnlockOnBoardPriceGems": 24107.0,
+            "ExperienceValue": 1024,
+            "MergeFeatures": {
+              "Mechanic": {
+                "ResultProducer": {
+                  "Constant": "Drawer_12"
+                },
+                "ResultVisibility": "Visible",
+                "ResetTimers": true,
+                "StorageAction": "Sum"
+              },
+              "AdditionalSpawnProducer": {
+                "Constant": "Experience_01"
+              },
+              "Mergeable": false,
+              "RequiresXpState": false
+            },
+            "ActivationFeatures": {
+              "ActivationSpawn": {
+                "Marker": "DrawerSpawn",
+                "BaseProducer": {
+                  "ControlledRandom": {
+                    "RollType": "Activation",
+                    "ItemType": "Drawer_11",
+                    "Odds": {
+                      "Vase_01": 29.791459781529294,
+                      "Vase_02": 29.791459781529294,
+                      "Vase_03": 19.860973187686195,
+                      "Vase_04": 9.930486593843098,
+                      "Flowerpot_01": 3.277060575968222,
+                      "Flowerpot_02": 3.277060575968222,
+                      "Flowerpot_03": 3.277060575968222,
+                      "GardenToolBarrel_01": 0.49652432969215493,
+                      "Drawer_01": 0.29791459781529295
+                    }
+                  }
+                }
+              },
+              "Placement": {},
+              "ActivationCycle": {
+                "ActivationDelay": 100,
+                "FirstCycleStartDelay": 500,
+                "DelayBetweenCycles": 23400000,
+                "HowManyAreGeneratedInCycle": 1,
+                "ActivationAmountInCycle": 27,
+                "HowManyCycles": -1
+              },
+              "StorageMax": 54,
+              "SpawnVisibility": "Visible",
+              "Activable": true,
+              "StartsFull": false,
+              "DecayAfterLastCycleAndActivation": false,
+              "ShowTapTextOnDiscovery": false,
+              "AllowCooldownRemover": true,
+              "AllowEnergyMode": true
+            },
+            "Tags": [
+              "CanUseBlackCard",
+              "CanUseScissors",
+              "DontSellIfOnlyOneOrHighest"
+            ],
+            "MergeChainRef": "Drawer",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "Spawner"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Rare",
+            "Unsellable": false,
+            "ItemType": "Drawer_11",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "MiniEventFeatures": {},
+            "SinkPoints": 0,
+            "OverrideProductionSource": []
+          },
+          "Count": 0
+        },
+        {
+          "Item": {
+            "Name": "Drawer",
+            "Description": "TAP to collect the items inside. This item is at its max level and can no longer be merged.",
+            "SellCoins": 1640,
+            "ConfigKey": 71,
+            "PoolTag": "DrawerItem",
+            "SkinName": "12",
+            "LevelNumber": 12,
+            "Movable": true,
+            "CostInDiamonds": 12800.0,
+            "AnchorPriceGems": 14848.0,
+            "AnchorPriceCoins": 0.0,
+            "TimeSkipPriceGems": 19200.0,
+            "UnlockOnBoardPriceGems": 38400.0,
+            "ExperienceValue": 2048,
+            "ActivationFeatures": {
+              "ActivationSpawn": {
+                "Marker": "DrawerSpawn",
+                "BaseProducer": {
+                  "ControlledRandom": {
+                    "RollType": "Activation",
+                    "ItemType": "Drawer_12",
+                    "Odds": {
+                      "Vase_01": 26.785714285714285,
+                      "Vase_02": 26.785714285714285,
+                      "Vase_03": 17.857142857142858,
+                      "Vase_04": 17.857142857142858,
+                      "Flowerpot_01": 1.984126984126984,
+                      "Flowerpot_02": 3.968253968253968,
+                      "Flowerpot_03": 3.968253968253968,
+                      "GardenToolBarrel_01": 0.496031746031746,
+                      "Drawer_01": 0.2976190476190476
+                    }
+                  }
+                }
+              },
+              "Placement": {},
+              "ActivationCycle": {
+                "ActivationDelay": 100,
+                "FirstCycleStartDelay": 500,
+                "DelayBetweenCycles": 23400000,
+                "HowManyAreGeneratedInCycle": 1,
+                "ActivationAmountInCycle": 30,
+                "HowManyCycles": -1
+              },
+              "StorageMax": 60,
+              "SpawnVisibility": "Visible",
+              "Activable": true,
+              "StartsFull": false,
+              "DecayAfterLastCycleAndActivation": false,
+              "ShowTapTextOnDiscovery": false,
+              "AllowCooldownRemover": true,
+              "AllowEnergyMode": true
+            },
+            "Tags": [
+              "CanUseBlackCard",
+              "CanUseScissors",
+              "DontSellIfOnlyOneOrHighest"
+            ],
+            "MergeChainRef": "Drawer",
+            "ConfirmableMergeResults": [],
+            "OnDiscoveredActions": [],
+            "ShowTutorialFingerOnDiscovery": false,
+            "AnalyticsMetaData": [
+              "Spawner"
+            ],
+            "CombineInfoWithItem": [],
+            "Rarity": "Rare",
+            "Unsellable": false,
+            "ItemType": "Drawer_12",
+            "Rewards": [],
+            "UnlockRequirements": [],
+            "SpawnEffects": [],
+            "CustomItemInfoPopupId": null,
+            "ShowCustomItemInfoPopupOnDiscovery": false,
+            "MiniEventFeatures": {},
+            "SinkPoints": 0,
+            "OverrideProductionSource": []
+          },
+          "Count": 0
+        }
+      ],
+      "FallbackChain": [],
+      "CodexCategory": {
+        "ConfigKey": "Renovation",
+        "IconItem": "Tools_09"
+      },
+      "DiscoveryRewardRef": {
+        "ConfigKey": "Activatable",
+        "DiscoveryCompletionReward": {
+          "RewardItem": {
+            "ItemRef": "LevelUpBoosterBlueCard_01",
+            "Amount": 1,
+            "FromSupport": false,
+            "MergeBoardId": "Garage",
+            "ForceOnTopOfPocket": false,
+            "Source": "DiscoveryReward"
+          }
+        },
+        "DiscoveryRewards": []
+      },
+      "UnsellableUntilPlayerLevel": 9,
+      "ShowSellConfirmationUntilPlayerLevel": 12
+    },
+    

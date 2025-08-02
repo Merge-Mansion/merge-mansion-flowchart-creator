@@ -1,0 +1,1702 @@
+
+  "CreatedAt": "2024-11-27T14:08:22.844",
+  "Data": [
+    {
+      "Name": "The Grand Drive",
+      "TaskDependencies": "digraph{rankdir=\"TB\";node[shape=box];0[label=\"DrivewayGateRemoveLongGrass\r\nMow grassDeluxe Rubber Garden Gloves x1\"];1[label=\"DrivewayGateRemoveFallenTree\r\nRemove fallen treeAxe x1\"];2[label=\"DrivewayGateRemoveGroundDirt\r\nPull up weedsGarden Fork x1\"];3[label=\"DrivewayGateClearMansionSign\r\nRemove overgrown bushesPruning Shears x1\"];4[label=\"DrivewayRemoveTrash1\r\nRemove broken branchesDeluxe Rubber Garden Gloves x1\"];5[label=\"DrivewayRemoveTree\r\nRemove dead treeAxe x1\"];6[label=\"DrivewayRemoveLeaves2\r\nRake leavesLeaf Rake x1\"];7[label=\"DrivewayRemoveLeaves1\r\nRemove leavesEmpty Seed Bag x1\"];8[label=\"DrivewayRemoveGrass\r\nCut back grassDeluxe Rubber Garden Gloves x1\"];9[label=\"DrivewayPrepareFlowerbed1\r\nPrepare flowerbedGarden Fork x1\"];10[label=\"DrivewayPlantFlower1\r\nPlant flowersSmall Seed Bag x1\"];11[label=\"DrivewayPrepareFlowerbed2\r\nPrepare flowerbedGarden Fork x1\"];12[label=\"DrivewayPlantFlower2\r\nPlant flowersOrange Flower Bud x1\"];13[label=\"DrivewayPrepareFlowerbed3\r\nPrepare flowerbedGarden Fork x1\"];14[label=\"DrivewayPlantFlower3\r\nPlant flowersOrange Flower Bud x1\"];15[label=\"DrivewayStatueRemoveWoodClutter\r\nRemove wood clutterAxe x1\"];16[label=\"DrivewayStatueRemoveBranches\r\nCut back old growthPruning Shears x1\"];17[label=\"DrivewayStatueRemoveTarpaulin\r\nRemove tarpaulinKnife x1\"];18[label=\"DrivewayStatueCleanUp\r\nClean statueSponge x1Soap x1\"];19[label=\"DrivewayStatuePlantFlowers\r\nPlant flowersOrange Flower x1\"];20[label=\"DrivewayFixPavement\r\nRepair pavementMallet x1Deluxe Rubber Garden Gloves x1\"];21[label=\"DrivewayPlaceLamps1\r\nPlace lightsBright Bronze Lantern x3\"];22[label=\"DrivewayPlaceLamps2\r\nPlace lightsBright Bronze Lantern x3\"];23[label=\"MansionStairsRemoveTrash\r\nRemove withered plantsDeluxe Rubber Garden Gloves x1\"];24[label=\"LayeredDecoration\r\n\"];25[label=\"LayeredPetHome\r\n\"];0->1;1->2;2->3;4->5;5->23;6->7;6->13;6->15;7->9;8->6;9->10;9->11;10->20;11->12;12->20;13->14;14->20;15->16;16->17;17->18;18->19;20->21;21->22;}",
+      "AreaId": "Driveway",
+      "TitleLocalizationId": "HotspotTitle_Driveway",
+      "TeaseRequirements": [],
+      "UnlockRequirements": [],
+      "Rewards": [
+        {
+          "RewardItem": {
+            "ItemRef": "AreaBox_01",
+            "Amount": 1,
+            "FromSupport": false,
+            "MergeBoardId": "Garage",
+            "ForceOnTopOfPocket": false,
+            "Source": "AreaCompleted"
+          }
+        }
+      ],
+      "HotspotsRefs": [
+        {
+          "Description": "Remove leaves",
+          "Id": "DrivewayRemoveLeaves1",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "SeedBagEmpty_01",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayRemoveLeaves2"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 3,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "SimpleBrownBox_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayRemoveLeaves1",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 8,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 5,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Prepare flowerbed",
+          "Id": "DrivewayPrepareFlowerbed1",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenTools_02",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayRemoveLeaves1"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "ClothCoveredBrownBox_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayPrepareFlowerbed1",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 1,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 1,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Remove broken branches",
+          "Id": "DrivewayRemoveTrash1",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenGloves_03",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayRemoveTrash1",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 16,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 11,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Rake leaves",
+          "Id": "DrivewayRemoveLeaves2",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenTools_07",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayRemoveGrass"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 3,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayRemoveLeaves2",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 17,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 12,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Plant flowers",
+          "Id": "DrivewayPlantFlower2",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "OrangeFlower_05",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayPrepareFlowerbed2"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayPlantFlower2",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 17,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 12,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Prepare flowerbed",
+          "Id": "DrivewayPrepareFlowerbed2",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenTools_02",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayPrepareFlowerbed1"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "SimpleBrownBox_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayPrepareFlowerbed2",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 1,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 1,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Mow grass",
+          "Id": "DrivewayGateRemoveLongGrass",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenGloves_03",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "SimpleBrownBox_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayGateRemoveLongGrass",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 16,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 11,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Cut back grass",
+          "Id": "DrivewayRemoveGrass",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenGloves_03",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "SimpleBrownBox_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayRemoveGrass",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 16,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 11,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Remove wood clutter",
+          "Id": "DrivewayStatueRemoveWoodClutter",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenTools_04",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayRemoveLeaves2"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "SimpleBrownBox_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayStatueRemoveWoodClutter",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 2,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 1,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Remove withered plants",
+          "Id": "MansionStairsRemoveTrash",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenGloves_03",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayRemoveTree"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "MansionStairsRemoveTrash",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 16,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 11,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Remove tarpaulin",
+          "Id": "DrivewayStatueRemoveTarpaulin",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenTools_06",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayStatueRemoveBranches"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "SimpleBrownBox_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayStatueRemoveTarpaulin",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 8,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 5,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Clean statue",
+          "Id": "DrivewayStatueCleanUp",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "Cleaning_03",
+                  "Requirement": 1
+                }
+              ]
+            },
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "Detergent_02",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayStatueRemoveTarpaulin"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 3,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayStatueCleanUp",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 18,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 13,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Plant flowers",
+          "Id": "DrivewayPlantFlower1",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "SeedBag_03",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayPrepareFlowerbed1"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "ClothCoveredBrownBox_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayPlantFlower1",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 8,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 5,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Pull up weeds",
+          "Id": "DrivewayGateRemoveGroundDirt",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenTools_02",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayGateRemoveFallenTree"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayGateRemoveGroundDirt",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 1,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 1,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Cut back old growth",
+          "Id": "DrivewayStatueRemoveBranches",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenTools_03",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayStatueRemoveWoodClutter"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 3,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayStatueRemoveBranches",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 1,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 1,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Plant flowers",
+          "Id": "DrivewayStatuePlantFlowers",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "OrangeFlower_06",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayStatueCleanUp"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "SimpleBrownBox_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [
+            {
+              "TriggerDialogue": {
+                "StoryDefinitionId": "MansionDrivewayStatueTaskRevealed",
+                "StealAllSteps": true,
+                "DialogItems": {
+                  "MansionDrivewayStatueTaskRevealed_01": {
+                    "Text": "I wonder what Ignatius Boulton did to deserve a statue?",
+                    "DialogItemId": "MansionDrivewayStatueTaskRevealed_01",
+                    "LocalizationId": "DialogText_MansionDrivewayStatueTaskRevealed_Maddie_01",
+                    "DialogMode": "GenericDialog",
+                    "LeftCharacterState": "Thinking",
+                    "LeftCharacter": "Maddie",
+                    "LeftSpeaks": true,
+                    "RightSpeaks": false,
+                    "RightCharacter": "NoChange",
+                    "RightCharacterState": "NoChange",
+                    "WaitConfirmation": true,
+                    "ScrollToCameraTarget": "DrivewayStatue",
+                    "WaitForEndOfScrolling": false,
+                    "CameraZoomTarget": "None",
+                    "NeedsTransition": false,
+                    "MoveToCameraTarget": "None",
+                    "ActivateHotSpot": "None",
+                    "LayoutEvents": [
+                      "LeftCharacterAppearSpeaking",
+                      "SpeechBubbleAppearLeft"
+                    ],
+                    "MapCharactersEventsRefs": [],
+                    "ResetMapCharacters": [],
+                    "ScrollToHotSpot": [
+                      "None"
+                    ],
+                    "DiscoveredCharacters": [],
+                    "DisallowClose": false,
+                    "StartActions": []
+                  },
+                  "MansionDrivewayStatueTaskRevealed_02": {
+                    "Text": "There's so much history here, and I don't know any of it!",
+                    "DialogItemId": "MansionDrivewayStatueTaskRevealed_02",
+                    "LocalizationId": "DialogText_MansionDrivewayStatueTaskRevealed_Maddie_02",
+                    "DialogMode": "GenericDialog",
+                    "LeftCharacterState": "Doubtful",
+                    "LeftCharacter": "Maddie",
+                    "LeftSpeaks": true,
+                    "RightSpeaks": false,
+                    "RightCharacter": "NoChange",
+                    "RightCharacterState": "NoChange",
+                    "WaitConfirmation": true,
+                    "ScrollToCameraTarget": "None",
+                    "WaitForEndOfScrolling": false,
+                    "CameraZoomTarget": "None",
+                    "NeedsTransition": false,
+                    "MoveToCameraTarget": "None",
+                    "ActivateHotSpot": "None",
+                    "LayoutEvents": [
+                      "LeftCharacterSpeaking",
+                      "SpeechBubbleAppearLeft"
+                    ],
+                    "MapCharactersEventsRefs": [],
+                    "ResetMapCharacters": [],
+                    "ScrollToHotSpot": [
+                      "None"
+                    ],
+                    "DiscoveredCharacters": [],
+                    "DisallowClose": false,
+                    "StartActions": []
+                  },
+                  "MansionDrivewayStatueTaskRevealed_03": {
+                    "Text": "Don't worry about his history right now - worry about his stone can! It's missing!",
+                    "DialogItemId": "MansionDrivewayStatueTaskRevealed_03",
+                    "LocalizationId": "DialogText_MansionDrivewayStatueTaskRevealed_Grandma_01",
+                    "DialogMode": "GenericDialog",
+                    "LeftCharacterState": "NoChange",
+                    "LeftCharacter": "Maddie",
+                    "LeftSpeaks": false,
+                    "RightSpeaks": true,
+                    "RightCharacter": "Grandma",
+                    "RightCharacterState": "Default",
+                    "WaitConfirmation": true,
+                    "ScrollToCameraTarget": "None",
+                    "WaitForEndOfScrolling": false,
+                    "CameraZoomTarget": "None",
+                    "NeedsTransition": false,
+                    "MoveToCameraTarget": "None",
+                    "ActivateHotSpot": "None",
+                    "LayoutEvents": [
+                      "RightCharacterAppearSpeaking",
+                      "SpeechBubbleAppearLeft",
+                      "LeftCharacterListening"
+                    ],
+                    "MapCharactersEventsRefs": [],
+                    "ResetMapCharacters": [],
+                    "ScrollToHotSpot": [
+                      "None"
+                    ],
+                    "DiscoveredCharacters": [],
+                    "DisallowClose": false,
+                    "StartActions": []
+                  },
+                  "MansionDrivewayStatueTaskRevealed_04": {
+                    "Text": "If he's missing a stone can, I should look for it! But why does he have one?",
+                    "DialogItemId": "MansionDrivewayStatueTaskRevealed_04",
+                    "LocalizationId": "DialogText_MansionDrivewayStatueTaskRevealed_Maddie_03",
+                    "DialogMode": "GenericDialog",
+                    "LeftCharacterState": "Joyous",
+                    "LeftCharacter": "Maddie",
+                    "LeftSpeaks": true,
+                    "RightSpeaks": false,
+                    "RightCharacter": "NoChange",
+                    "RightCharacterState": "NoChange",
+                    "WaitConfirmation": true,
+                    "ScrollToCameraTarget": "None",
+                    "WaitForEndOfScrolling": false,
+                    "CameraZoomTarget": "None",
+                    "NeedsTransition": false,
+                    "MoveToCameraTarget": "None",
+                    "ActivateHotSpot": "None",
+                    "LayoutEvents": [
+                      "LeftCharacterSpeaking",
+                      "SpeechBubbleAppearLeft",
+                      "RightCharacterListening"
+                    ],
+                    "MapCharactersEventsRefs": [],
+                    "ResetMapCharacters": [],
+                    "ScrollToHotSpot": [
+                      "None"
+                    ],
+                    "DiscoveredCharacters": [],
+                    "DisallowClose": false,
+                    "StartActions": []
+                  },
+                  "MansionDrivewayStatueTaskRevealed_05": {
+                    "Text": "Find it and I'll tell you, dearie.",
+                    "DialogItemId": "MansionDrivewayStatueTaskRevealed_05",
+                    "LocalizationId": "DialogText_MansionDrivewayStatueTaskRevealed_Grandma_02",
+                    "DialogMode": "GenericDialog",
+                    "LeftCharacterState": "Default",
+                    "LeftCharacter": "Maddie",
+                    "LeftSpeaks": false,
+                    "RightSpeaks": true,
+                    "RightCharacter": "NoChange",
+                    "RightCharacterState": "Default",
+                    "WaitConfirmation": true,
+                    "ScrollToCameraTarget": "None",
+                    "WaitForEndOfScrolling": false,
+                    "CameraZoomTarget": "None",
+                    "NeedsTransition": false,
+                    "MoveToCameraTarget": "None",
+                    "ActivateHotSpot": "None",
+                    "LayoutEvents": [
+                      "LeftCharacterDisappear",
+                      "SpeechBubbleAppearLeft",
+                      "RightCharacterSpeaking"
+                    ],
+                    "MapCharactersEventsRefs": [],
+                    "ResetMapCharacters": [],
+                    "ScrollToHotSpot": [
+                      "None"
+                    ],
+                    "DiscoveredCharacters": [],
+                    "DisallowClose": false,
+                    "StartActions": []
+                  },
+                  "MansionDrivewayStatueTaskRevealed_06": {
+                    "Text": null,
+                    "DialogItemId": "MansionDrivewayStatueTaskRevealed_06",
+                    "DialogMode": "None",
+                    "LeftCharacterState": "NoChange",
+                    "LeftCharacter": "NoChange",
+                    "LeftSpeaks": false,
+                    "RightSpeaks": false,
+                    "RightCharacter": "NoChange",
+                    "RightCharacterState": "NoChange",
+                    "WaitConfirmation": false,
+                    "ScrollToCameraTarget": "None",
+                    "WaitForEndOfScrolling": false,
+                    "CameraZoomTarget": "None",
+                    "NeedsTransition": false,
+                    "MoveToCameraTarget": "None",
+                    "ActivateHotSpot": "None",
+                    "LayoutEvents": [
+                      "SpeechBubbleDisappearLeft",
+                      "RightCharacterDisappear"
+                    ],
+                    "MapCharactersEventsRefs": [],
+                    "ResetMapCharacters": [],
+                    "ScrollToHotSpot": [
+                      "None"
+                    ],
+                    "DiscoveredCharacters": [],
+                    "DisallowClose": false,
+                    "StartActions": []
+                  }
+                },
+                "Music": "",
+                "MusicTriggerIndex": -1,
+                "CompleteActions": [],
+                "SupportsSimpleSkip": false,
+                "StartDelay": 0.0
+              }
+            }
+          ],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayStatuePlantFlowers",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 34,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 25,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Remove dead tree",
+          "Id": "DrivewayRemoveTree",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenTools_04",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayRemoveTrash1"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayRemoveTree",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 2,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 1,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Remove fallen tree",
+          "Id": "DrivewayGateRemoveFallenTree",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenTools_04",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayGateRemoveLongGrass"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 3,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayGateRemoveFallenTree",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 2,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 1,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Prepare flowerbed",
+          "Id": "DrivewayPrepareFlowerbed3",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenTools_02",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayRemoveLeaves2"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 3,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "ClothCoveredBrownBox_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayPrepareFlowerbed3",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 1,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 1,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Remove overgrown bushes",
+          "Id": "DrivewayGateClearMansionSign",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenTools_03",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayGateRemoveGroundDirt"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 3,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayGateClearMansionSign",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 1,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 1,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Repair pavement",
+          "Id": "DrivewayFixPavement",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "Tools_03",
+                  "Requirement": 1
+                }
+              ]
+            },
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "GardenGloves_03",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayPlantFlower1",
+            "DrivewayPlantFlower2",
+            "DrivewayPlantFlower3"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 1,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "SimpleBrownBox_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayFixPavement",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 18,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 13,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Place lights",
+          "Id": "DrivewayPlaceLamps2",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "Lamp_06",
+                  "Requirement": 3
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayPlaceLamps1"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 3,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "BrownChest_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayPlaceLamps2",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 201,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 148,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Plant flowers",
+          "Id": "DrivewayPlantFlower3",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "OrangeFlower_04",
+                  "Requirement": 1
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayPrepareFlowerbed3"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 3,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayPlantFlower3",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 8,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 5,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Description": "Place lights",
+          "Id": "DrivewayPlaceLamps1",
+          "Type": "MergeGoal",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [
+            {
+              "ItemAcquired": [
+                {
+                  "ItemRef": "Lamp_06",
+                  "Requirement": 3
+                }
+              ]
+            }
+          ],
+          "UnlockingParentRefs": [
+            "DrivewayFixPavement"
+          ],
+          "Rewards": [
+            {
+              "RewardExperience": {
+                "Amount": 3,
+                "Source": "HotspotCompleted"
+              }
+            },
+            {
+              "RewardItem": {
+                "ItemRef": "EnergyChest_01",
+                "Amount": 1,
+                "FromSupport": false,
+                "MergeBoardId": "Garage",
+                "ForceOnTopOfPocket": false,
+                "Source": "HotspotCompleted"
+              }
+            }
+          ],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "DrivewayPlaceLamps1",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 201,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 148,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Id": "LayeredPetHome",
+          "Type": "OpenUIElement",
+          "AreaRef": null,
+          "MergeBoardId": "Garage",
+          "RequirementsList": [],
+          "UnlockingParentRefs": [],
+          "Rewards": [],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "LayeredPetHome",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [
+            "HasAnyPet"
+          ],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 0,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 0,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        },
+        {
+          "Id": "LayeredDecoration",
+          "Type": "Event",
+          "AreaRef": null,
+          "MergeBoardId": null,
+          "RequirementsList": [],
+          "UnlockingParentRefs": [],
+          "Rewards": [],
+          "CompletionActions": [],
+          "FinalizationActions": [],
+          "AppearActions": [],
+          "MapSpotRef": {
+            "ConfigKey": "LayeredDecoration",
+            "TitleId": "HotspotTitle_Driveway"
+          },
+          "TaskGroupId": null,
+          "UnlockRequirementsList": [],
+          "IsIndependentTask": false,
+          "AppearActionMax": -1,
+          "CompleteActionMax": -1,
+          "CompleteFocusHotspotRef": {},
+          "AppearMapCharactersEventsRefs": [],
+          "CompleteMapCharactersEventsRefs": [],
+          "BonusTimerDuration": 0,
+          "BonusRewards": [],
+          "CustomHotspotTableId": null,
+          "SoloMilestoneHotspotValue": 0,
+          "MultistepGroupId": null,
+          "BoultonLeaguePoints": 0,
+          "DelayDebrisAnimation": false,
+          "Difficulty": 0,
+          "DifficultyRewards": []
+        }
+      ],
+      "UnlockingHotspotRef": null,
+      "LockedDescriptionLocalizationId": "Area_Locked_Mystery_Description_Driveway",
+      "UnlockedDescriptionLocalizationId": "Area_Description_Driveway",
+      "ShortDescriptionLocalizationId": "Area_Short_Description_Driveway",
+      "MapSpotRefs": [
+        {
+          "ConfigKey": "DrivewayGateRemoveGroundDirt",
+          "TitleId": "HotspotTitle_Driveway"
+        },
+        {
+          "ConfigKey": "DrivewayPlantFlower3",
+          "TitleId": "HotspotTitle_Driveway"
+        }
+      ],
+      "LocationId": "GrandmaMansion",
+      "UnlockInstructionMergeChainId": null
+    },
+    
